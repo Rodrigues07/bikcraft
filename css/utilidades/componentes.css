@@ -21,3 +21,14 @@
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+.detalhe-p1 {
+  color: var(--p1-color);
+}
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+}
