@@ -8,7 +8,8 @@ h3,
 h4,
 ul,
 p,
-blockquote {
+blockquote,
+dd {
   margin: 0px;
 }
 ul {
@@ -22,4 +23,12 @@ a {
 img {
   max-width: 100%;
   display: block;
+}
+:root {
+  --padding: 120px;
+}
+@media (max-width: 800px) {
+  :root {
+    --padding: 60px;
+  }
 }
